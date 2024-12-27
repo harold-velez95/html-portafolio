@@ -149,6 +149,10 @@ img{
 }
 
 .project_img_content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -240,9 +244,14 @@ a:hover {
         padding-top: 0px;
     
     }
-    .project_p p{
+    .project_p {
         width: 300px;
     
+    }
+
+    .project_img_content img, img, .myself{
+        width:250px;
+
     }
 }
 
@@ -250,3 +259,4 @@ a:hover {
     padding:20px;
     text-align:center;
 }
+
